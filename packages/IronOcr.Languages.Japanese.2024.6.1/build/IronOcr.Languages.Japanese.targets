@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project ToolsVersion='4.0' xmlns='http://schemas.microsoft.com/developer/msbuild/2003'>
+    <ItemGroup>
+        <None Include='$(MSBuildThisFileDirectory)\..\OcrData\Japanese.ocrdata'>
+            <Link>OcrData/Japanese.ocrdata</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+       <None Include='$(MSBuildThisFileDirectory)\..\Models\Recognition\jp-recognition.pdiparams'>
+    <Link>Models/Recognition/jp-recognition.pdiparams</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+</None>
+<None Include='$(MSBuildThisFileDirectory)\..\Models\Recognition\jp-recognition.pdmodel'>
+    <Link>Models/Recognition/jp-recognition.pdmodel</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+</None>
+<None Include='$(MSBuildThisFileDirectory)\..\Models\Recognition\Labels\jp_dict.txt'>
+    <Link>Models/Recognition/Labels/jp_dict.txt</Link>
+    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+</None>
+    </ItemGroup>
+</Project>
